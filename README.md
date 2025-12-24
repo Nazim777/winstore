@@ -48,40 +48,37 @@ Winstore is a responsive e-commerce application that includes:
 ## Folder Structure
 
 root
-├── app
-│   ├── actions
-│   │   ├── product.ts
-│   │   └── category.ts
-│   ├── products
-│   │   └── [id]/page.tsx
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── global.css
+├── app/
+│   ├── actions/                # Server actions for data fetching/mutations
+│   │   ├── category.ts
+│   │   └── product.ts
+│   ├── products/
+│   │   └── [id]/
+│   │       └── page.tsx        # Dynamic product detail page
+│   ├── global.css              # Global styles
+│   ├── layout.tsx              # Root layout
+│   └── page.tsx                # Homepage
 │
-├── components
-│   ├── category
+├── components/
+│   ├── category/               # Category-related components
 │   │   ├── CategoryCard.tsx
 │   │   ├── CategoryList.tsx
 │   │   ├── CategoryListSkeleton.tsx
 │   │   ├── CategorySkeleton.tsx
 │   │   └── CategorySlider.tsx
-│   │
-│   ├── common
+│   ├── common/                 # Reusable generic components
 │   │   ├── Divider.tsx
 │   │   ├── Error.tsx
 │   │   └── ScrollButton.tsx
-│   │
-│   ├── home
+│   ├── home/                   # Homepage-specific sections
+│   │   ├── Arrivals.tsx
 │   │   ├── BestDeal.tsx
-│   │   ├── Hero.tsx
-│   │   └── Arrivals.tsx
-│   │
-│   ├── layout
+│   │   └── Hero.tsx
+│   ├── layout/                 # Global UI structure components
 │   │   ├── Breadcrumb.tsx
 │   │   ├── Footer.tsx
 │   │   └── Header.tsx
-│   │
-│   ├── product
+│   ├── product/                # Product-specific components
 │   │   ├── ProductAction.tsx
 │   │   ├── ProductCard.tsx
 │   │   ├── ProductDescription.tsx
@@ -95,18 +92,17 @@ root
 │   │   ├── Products.tsx
 │   │   ├── Skeleton.tsx
 │   │   └── SkeletonWrapper.tsx
-│   │
-│   └── ui
+│   └── ui/                     # Basic atoms/primitive UI elements
 │       └── Button.tsx
 │
-├── hooks
+├── hooks/                      # Custom React hooks
 │   └── useFetch.ts
 │
-├── types
+├── types/                      # TypeScript interfaces and types
 │   ├── category.ts
 │   └── product.ts
 │
-└── utils
+└── utils/                      # Helper functions and API configurations
     ├── api.ts
     └── category.ts
 
