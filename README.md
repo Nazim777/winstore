@@ -48,67 +48,68 @@ Winstore is a responsive e-commerce application that includes:
 ## Folder Structure
 
 root
-├─ app/
-│ ├─ actions/
-│ │ ├─ product.ts
-│ │ └─ category.ts
-│ ├─ products/
-│ │ └─ [id]/page.tsx
-│ ├─ layout.tsx
-│ ├─ page.tsx
-│ └─ global.css
+├── app
+│   ├── actions
+│   │   ├── product.ts
+│   │   └── category.ts
+│   ├── products
+│   │   └── [id]/page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── global.css
 │
-├─ components/
-│ ├─ category/
-│ │ ├─ CategoryCard.tsx
-│ │ ├─ CategoryList.tsx
-│ │ ├─ CategoryListSkeleton.tsx
-│ │ ├─ CategorySkeleton.tsx
-│ │ └─ CategorySlider.tsx
-│ │
-│ ├─ common/
-│ │ ├─ Divider.tsx
-│ │ ├─ Error.tsx
-│ │ └─ ScrollButton.tsx
-│ │
-│ ├─ home/
-│ │ ├─ BestDeal.tsx
-│ │ ├─ Hero.tsx
-│ │ └─ Arrivals.tsx
-│ │
-│ ├─ layout/
-│ │ ├─ Breadcrumb.tsx
-│ │ ├─ Footer.tsx
-│ │ └─ Header.tsx
-│ │
-│ ├─ product/
-│ │ ├─ ProductAction.tsx
-│ │ ├─ ProductCard.tsx
-│ │ ├─ ProductDescription.tsx
-│ │ ├─ ProductDetails.tsx
-│ │ ├─ ProductFeatures.tsx
-│ │ ├─ ProductGallery.tsx
-│ │ ├─ ProductHeader.tsx
-│ │ ├─ ProductInfo.tsx
-│ │ ├─ ProductPrice.tsx
-│ │ ├─ ProductQuantity.tsx
-│ │ ├─ Products.tsx
-│ │ ├─ Skeleton.tsx
-│ │ └─ SkeletonWrapper.tsx
-│ │
-│ └─ ui/
-│ └─ Button.tsx
+├── components
+│   ├── category
+│   │   ├── CategoryCard.tsx
+│   │   ├── CategoryList.tsx
+│   │   ├── CategoryListSkeleton.tsx
+│   │   ├── CategorySkeleton.tsx
+│   │   └── CategorySlider.tsx
+│   │
+│   ├── common
+│   │   ├── Divider.tsx
+│   │   ├── Error.tsx
+│   │   └── ScrollButton.tsx
+│   │
+│   ├── home
+│   │   ├── BestDeal.tsx
+│   │   ├── Hero.tsx
+│   │   └── Arrivals.tsx
+│   │
+│   ├── layout
+│   │   ├── Breadcrumb.tsx
+│   │   ├── Footer.tsx
+│   │   └── Header.tsx
+│   │
+│   ├── product
+│   │   ├── ProductAction.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── ProductDescription.tsx
+│   │   ├── ProductDetails.tsx
+│   │   ├── ProductFeatures.tsx
+│   │   ├── ProductGallery.tsx
+│   │   ├── ProductHeader.tsx
+│   │   ├── ProductInfo.tsx
+│   │   ├── ProductPrice.tsx
+│   │   ├── ProductQuantity.tsx
+│   │   ├── Products.tsx
+│   │   ├── Skeleton.tsx
+│   │   └── SkeletonWrapper.tsx
+│   │
+│   └── ui
+│       └── Button.tsx
 │
-├─ hooks/
-│ └─ useFetch.ts
+├── hooks
+│   └── useFetch.ts
 │
-├─ types/
-│ ├─ category.ts
-│ └─ product.ts
+├── types
+│   ├── category.ts
+│   └── product.ts
 │
-└─ utils/
-├─ api.ts
-└─ category.ts
+└── utils
+    ├── api.ts
+    └── category.ts
+
 
 
 ---
