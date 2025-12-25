@@ -108,7 +108,7 @@ http://localhost:3000
 
 ## Environment Variables (.env.example)
 ```bash
-NEXT_PUBLIC_BASE_API_URL = api.example.com
+NEXT_PUBLIC_BASE_API_URL = https://example.com/api/v1
 ```
 
 
